@@ -60,9 +60,17 @@ ul.nav_links a {
 		 align-items: center;
 		 width: 50%;
 		 transform: translateX(100%);
+		 transition: all .4s ease-in;
 	}
-	.nav_links li{
+	/* .nav_links li{
 		opacity: 0;
-	}
+	} */
+	.burger{
+	   display: block;
+    }
 
+}
+.nav_active{
+     
+     transform: translateX(0%);
 }
