@@ -3,6 +3,55 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+.wrapper{
+	display: grid;
+}
+/*****top******/
+.top{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-gap: 20px;
+	font-family: 'Share Tech', sans-serif;
+	
+}
+.top_item{
+	border: 1px solid red;
+	padding: 10px;
+	display: flex;
+}
+/*****header******/
+header{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+	grid-gap: 20px;
+	padding: 20px 0px;
+}
+header div{
+	border: 1px solid blue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo{
+	color: gray;
+	font-size: 1.2rem;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+input_control {
+    width: 100%;
+    position: relative;
+}
+input#search {
+    width: 100%;
+    padding: 10px 0px;
+}
+i.fas.fa-search {
+    position: absolute;
+    right: 12px;
+    top: 10px;
+    font-size: 20px;
+}
 nav{
 	display: flex;
 	justify-content: space-around;
@@ -11,12 +60,7 @@ nav{
 	background-color: brown;
 	font-family: 'Share Tech', sans-serif;
 }
-.logo{
-	color: lightgray;
-	font-size: 1.2rem;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-}
+
 ul.nav_links {
 	list-style: none;
     display: flex;
