@@ -41,6 +41,12 @@ ul.nav_links a {
     background-color: lightgray;
     margin: 4px;
 }
+.burger .line3{
+	width: 15px;
+    height: 3px;
+    background-color: lightgray;
+    margin: 4px;
+}
 
 
 
@@ -58,9 +64,9 @@ ul.nav_links a {
 		 display: flex;
 		 flex-direction: column;
 		 align-items: center;
-		 width: 50%;
-		 transform: translateX(100%);
-		 transition: all .4s ease-in;
+		 width: 0%!important;
+		 transition: all .3s ease-in;
+		 overflow-x: hidden;
 	}
 	/* .nav_links li{
 		opacity: 0;
@@ -72,5 +78,5 @@ ul.nav_links a {
 }
 .nav_active{
      
-     transform: translateX(0%);
+     width: 50%!important;
 }
