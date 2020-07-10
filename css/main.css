@@ -11,11 +11,11 @@
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 	grid-gap: 20px;
+	color: gray;
 	font-family: 'Share Tech', sans-serif;
 	
 }
 .top_item{
-	border: 1px solid red;
 	padding: 10px;
 	display: flex;
 }
@@ -126,6 +126,184 @@ ul.nav_links a {
     background-color: lightgray;
     margin: 4px;
 }
+
+/*********hero**********/
+.hero{
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-column-gap: 22px;
+	margin: 20px 0;
+}
+.sidebar{
+         
+           font-family: 'Share Tech', sans-serif;
+           overflow-y: auto;
+           height: 75vh;
+	
+}
+.main{
+	height: 75vh;
+	background-image: url('../images/hero.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 25px;
+	display: flex;
+    align-items: center;
+}
+.main_inner {
+    width: 50%;
+}
+.main_inner h1 {
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+.main_inner p{
+	margin:  15px 0;
+}
+button#show_now {
+    padding: 10px 22px;
+    background: #54b9d9;
+    color: white;
+    border: 1px solid #54b9d9;
+}
+
+/*****side bar*****/
+.sidebar h3 {
+    background: red;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+.main_sidebar{
+	list-style: none;
+	width: 100%;
+
+}
+.main_sidebar li{
+	padding: 12px;
+	background: lightgray;
+	margin: 2px 0px;
+	cursor: pointer;
+	position: relative;
+
+}
+.main_sidebar li:hover{
+   border-right: 4px solid green;
+}
+.main_sidebar a{
+
+	text-decoration: none;
+	font-size: 19px;
+	color: black;
+}
+/**ellipsis code on css**/
+.ellipsis_code{
+	width: 130px;
+	display: block;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+
+}
+span.tooltip_text {
+    color: white;
+    background: #2C3E50;
+    padding: 8px;
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    top: -8px;
+    right: 7px;
+    z-index: 100;
+}
+.main_sidebar li:hover span.tooltip_text{
+	display: block;
+}
+
+/****product 1*****/
+
+.product1{
+	margin: 20px 0;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+	grid-column-gap: 22px;
+	font-family: 'Share Tech', sans-serif;
+}
+.top_sellers{
+
+}
+.new_products{
+
+}
+.top_sellers{
+	padding: 5px;
+}
+.top_sellers h1, .new_products h1{
+    padding: 15px 15px 15px 0;
+    text-transform: uppercase;
+    margin-bottom: 5px;
+}
+.seller_item{
+	display: flex;
+	margin-bottom: 12px;
+}
+.seller_item_text{
+	margin-left: 8px;
+}
+.seller_item_text p {
+    line-height: 1.4;
+}
+.price {
+    font-size: 18px;
+    font-weight: 800;
+}
+.inner_products{
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+}
+
+.card_pro1 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+  border: 1px solid lightgray;
+  padding: 15px 10px;
+}
+.btn_group{
+	margin-top: 10px;
+}
+.btn_group button{
+	background: gray;
+	border: none;
+	padding: 5px 15px;
+	color: white;
+
+}
+.btn_group button:nth-child(1){
+    border-right: 1px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
