@@ -317,14 +317,215 @@ footer{
 .news_input #news_letter_input{
 	padding: 5px 10px;
 }
+.foot ul li i{
+	font-size: 20px;
+	margin-right: 10px;
+}
 
 
+/*****product page css*******/
 
+.productDetails{
+	margin: 25px 0;
+	display: grid;
+	grid-template-columns: 2fr .7fr;
+	grid-column-gap: 25px;
+	font-family: 'Share Tech', sans-serif;
+	padding:5px;
+}
+.best_seller h1{
+	background-color: red;
+	color:white;
+	text-align: center;
+}
+.pro_details{
+	border:1px solid lightgray;
+	width: 100%;
+	display: flex;
+}
+.pro_detail1{
+	
+	flex-basis:40%;
+	padding:15px;
+}
+.pro_items{
+   margin-top:10px;
+   display: flex;
+   justify-content: space-around;
+}
+.pro_detail1>img{
+	width: 100%;
+}
+.pro_detail2{
+	
+	flex-basis: 60%;
+	padding:15px;
+}
+.price_sec {
+    margin: 10px 0;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:8px 0;
+}
 
+.high_price {
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+}
+.price_text p {
+    color: red;
+    font-size: 19px;
+	word-spacing: 1px;
+	margin:8px 0;
+}
 
+.price_text p span i {
+    color: gray;
+}
+button#stock_btn {
+    background: green;
+    padding: 10px 30px;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
 
+.price_sec2 {
+    display: flex;
+    justify-content: space-between;
+	align-items: center;
+	padding: 10px 0;
+	border-top: 1px solid lightgray;
+	border-bottom: 1px solid lightgray;
+}
+.qty {
+    font-size: 19px;
+}
+input[type="number"] {
+    padding: 6px;
+    width: 25%;
+}
+.addCart {
+    width: 30%;
+}
+button#addCart_btn {
+    padding: 12px 40px;
+    background: red;
+    color: white;
+    font-size: 19px;
+    border: none;
+}
 
+.stars {
+    padding: 15px;
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.star i{
+	font-size: 22px;
+}
+input#verifyinput {
+    padding: 9px 25px;
+    padding: 26;
+}
+.verify{
+	position: relative;
+}
+#btn_verify {
+    padding: 9px;
+    /* position: absolute; */
+    top: 2px;
+    right: 0;
+    background: lightblue;
+    border: 1px solid lightblue;
+    color: white;
+	letter-spacing: 2px;
+	font-weight: 600;
+}
 
+.badage{
+	margin:20px 0;
+}
+.badage span{
+	padding:5px 8px;
+	background-color: #3b5998;
+	color: white;
+	
+    border-radius: 5px;
+}
+.badage span i {
+	width:15px;
+}
+.feat{
+	margin:35px 0 0 10px;
+}
+.keyfeat{
+	display: flex;
+}
+.feat ul{
+	list-style: none;
+	margin-left:25px;
+}
+.feat ul li{
+	margin-top:15px;
+	font-size: 20px;
+}
+
+.keyfeat ul li i{
+    font-size: 18px;
+	color:red;
+	width: 25px;
+}
+/*********/
+.info_tabs{
+	padding-left:5px;
+	margin:10px 0 0 0;
+	font-family: 'Share Tech', sans-serif;
+}
+
+.info_tabs button{
+	padding:12px 35px;
+	background-color:lightgray;
+	border:none;
+	font-size: 19px;
+}
+.info_tabs button.active{
+	background:red;
+	color:white;
+}
+.info_tables{
+	width: 100%;
+	border:1px solid lightgray;
+	padding:10px;
+	display: flex;
+}
+.left_info_table{
+	flex-basis: 45%;
+	border:1px solid green;
+	padding:10px;
+}
+.left_info_table p{
+	margin:7px 0;
+	font-weight: 700;
+}
+.left_info_table ul{
+	list-style: none;
+}
+.left_info_table ul li{
+	margin:8px 0px;
+}
+.left_info_table ul li span{
+	display: inline-block;
+	width:70px;
+}
+.write_own_review{
+	flex-basis: 55%;
+	border:1px solid brown;
+	padding:10px;
+}
 
 
 
