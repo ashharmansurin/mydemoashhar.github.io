@@ -529,7 +529,7 @@ input#verifyinput {
 .write_own_review h1{
 	margin-bottom: 8px;
 }
-table{
+table.ownReviewTable{
 	border:1px solid lightgray;
 	border-collapse: collapse;
 	width: 75%;
@@ -574,6 +574,88 @@ td{
 	padding:8px 30px;
 	color:white;
 	background-color: red!important;
+	border:none;
+}
+/**********shopping cart section***************/
+.shoppingCartSection{
+	margin:25px 0;
+	font-family: 'Share Tech', sans-serif;
+}
+.shoppingCartSection h1{
+		  padding:10px 0;
+		  border-bottom:2px solid lightgray;
+}
+table.shoppingCartable{
+	width: 95%;
+	margin:25px auto;
+	border:1px solid gray;
+	border-collapse: collapse;
+
+}
+table.shoppingCartable td{
+	padding:10px;
+}
+select#table_qty_select {
+    padding: 10px;
+}
+.couponSection{
+	width: 95%;
+	margin:0 auto;
+	padding:20px 0;
+	display: flex;
+	font-family: 'Share Tech', sans-serif;
+
+}
+.coupon{
+	width: 45%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pricingTable{
+
+	width: 55%;
+	
+}
+.priceTable{
+	width: 100%;
+	border:1px solid lightgray;
+	border-collapse: collapse;
+}
+.priceTable td{
+	padding:15px;
+	text-align: left;
+}
+#proceed_btn{
+	padding:10px 28px;
+	background-color: red;
+	color: white;
+	font-size: 20px;
+	font-weight: 600;
+	border:none;
+	margin:15px 0px;
+	float: right;
+}
+.coupon_input {
+	font-size:26px;
+	display: flex;
+    justify-content: center;
+	align-items: center;
+	
+}
+.coupon_input i{
+	font-size: 22px;
+	margin-right: 5px;
+}
+input#coupon_text {
+	padding: 8px 18px;
+	margin-left:5px;
+}
+.coupon_apply_btn{
+	padding:8px 10px;
+	background-color: red;
+	color:white;
+	font-size: 19px;
 	border:none;
 }
 
