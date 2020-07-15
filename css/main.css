@@ -504,7 +504,7 @@ input#verifyinput {
 }
 .left_info_table{
 	flex-basis: 45%;
-	border:1px solid green;
+	/* border:1px solid green; */
 	padding:10px;
 }
 .left_info_table p{
@@ -523,10 +523,59 @@ input#verifyinput {
 }
 .write_own_review{
 	flex-basis: 55%;
-	border:1px solid brown;
+	/* border:1px solid brown; */
 	padding:10px;
 }
+.write_own_review h1{
+	margin-bottom: 8px;
+}
+table{
+	border:1px solid lightgray;
+	border-collapse: collapse;
+	width: 75%;
+}
+table td i{
+	font-size: 20px;
+}
+table td{
+	font-size: 20px;
+}
+ th{
+	width: 100px;
+	background-color: lightgray;
+	padding:5px;
 
+}
+td{
+	padding:5px;
+	border:1px solid lightgray;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+#form{
+	width: 75%;
+	margin-top:25px;
+
+}
+#form label{
+	display: block;
+	font-size: 19px;
+	margin-bottom: 8px;
+}
+#name,#summary,#msg{
+	width: 100%;
+	padding:9px;
+	margin-bottom: 10px;
+	background-color: lightgray;
+	border:none;
+}
+#review_submit_btn{
+	padding:8px 30px;
+	color:white;
+	background-color: red!important;
+	border:none;
+}
 
 
 
