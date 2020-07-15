@@ -102,7 +102,7 @@ ul.nav_links {
 ul.nav_links a {
     color: lightgray;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -287,6 +287,36 @@ span.tooltip_text {
 .btn_group button:nth-child(1){
     border-right: 1px solid white;
 }
+footer{
+	background-color: red;
+	font-family: 'Share Tech', sans-serif;
+	color:white;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+	padding: 30px;
+	grid-gap: 20px;
+}
+
+.foot h3 {
+    margin-bottom: 10px;
+}
+
+.foot ul{
+	list-style: none;
+}
+.foot li {
+	margin:7px 0px;
+}
+.foot li a{
+	color:white;
+	text-decoration: none;
+}
+.news_input{
+	margin:8px 0;
+}
+.news_input #news_letter_input{
+	padding: 5px 10px;
+}
 
 
 
@@ -308,7 +338,7 @@ span.tooltip_text {
 
 
 
-
+/****media query*****/
 
 @media screen and (max-width: 768px){
 	body{
@@ -358,8 +388,12 @@ span.tooltip_text {
 	}
 	.main{
 		justify-content: center;
-		font-size: 18px;
+		font-size: 22px;
 		background-position: center right;
+		padding:10px;
+	}
+	.main.inner{
+		width:90%;
 	}
 	.input_control{
 		margin:10px auto;
@@ -370,7 +404,7 @@ span.tooltip_text {
 
 
 
-
+/*******************/
 
 
 .nav_active{
